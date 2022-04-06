@@ -1,0 +1,68 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    width: 100%;
+}
+section{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    width: 50%;
+    border: 5px solid #856ADD;
+}
+.title{
+    background-image: url(7.jpg);
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5%;
+}
+.estilo{
+    text-decoration: none;
+    width: 40vh;
+    padding: 5%;
+    margin-bottom: 5%;
+    border: 2px solid rgba(0,0,0,0.1);
+}
+.estilo button{
+    border: none;
+    background-color: white;
+    font-size: 1em;
+    color: grey;
+    margin-right: 3%;
+}
+.estilo textarea{
+    text-decoration: none;
+    width: 35vh;
+    padding: 5%;
+    margin-bottom: 5%;
+    border: 2px solid rgba(0,0,0,0.1);
+}
+.nome input, .email input, .telefone input{
+    width: 90%;
+    height: 3vh;
+    border: none;
+}
+.button button{
+    font-weight: bold;
+    color: white;
+    background-color: #856ADD;
+    border: none;
+    padding: 4%;
+    width: 50%;
+    border-radius: 50px;
+    margin-left: 30%;
+}
