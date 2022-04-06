@@ -17,12 +17,41 @@ body{
     display: flex;
     align-items: center;
 }
-.container input{
+.container .form{
+    width: 100%;
+    max-width: 500px;
+}
+.container label{
+    color: white;
+}
+.container .name, .container .email{
     padding: 1%;
     width: 90%;
     margin: 5%;
     font-size: 2em;
-    color: rgb(131, 125, 125);
+    border: none;
+}
+.container button{
+    padding: 1%;
+    width: 50%;
+    margin: 5%;
+    font-size: 2em;
+    border: none;
+    color: grey;
+    cursor: pointer;
+    margin-left: 25%;
+}
+.container #text{
+    padding: 1%;
+    width: 90%;
+    margin: 5%;
+    font-size: 2em;
+    color: black;
+    border: none;
+    height: 30vh;
+}
+.container .chackbox{
+    margin-left: 5%;
 }
 .container h1{
     color: white;
