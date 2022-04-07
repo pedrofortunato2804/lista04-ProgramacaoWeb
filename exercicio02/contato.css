@@ -22,27 +22,32 @@ body{
     border-bottom: 1px solid #db00a5;
 }
 .conteudo{
+    background-color: white;
+    margin: 1%;
+    padding: 4%;
+    display: flex;
+    justify-content: center;
+    height: 76vh;
     border-radius: 20px;
     border: 1px solid #ed2590;
-    width: 98%;
-    height: 75vh;
-    margin: 1%;
-    padding: 1%;
-    background-color: white;
 }
 .conteudo h1{
+    margin-bottom: 15%;
+    letter-spacing: 3px;
     text-align: center;
-    font-family: 'Bauhaus 93', sans-serif;
     color: #ed2590;
+    font-size: 2.5em;
+    font-family: 'Bauhaus 93', sans-serif;
 }
 .conteudo label{
     color: #ed2590;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.5em;
+    font-size: 1.3em;
     font-weight: bolder;
+    
 }
 .conteudo input{
-    width: 50%;
+    width: 100%;
     height: 5vh;
     margin-top: 1%;
     margin-bottom: 2%;
@@ -50,75 +55,12 @@ body{
     border-radius: 50px;
     border: 1px solid #ed259023;
 }
-.botao{
-    width: 20vh;
-    position: relative;
-    left: 820px;
-    top: 50px;
-}
-.botao button{
-    cursor: pointer;
-    background-color: white;
-    color: #ed2590;
-    font-weight: bolder;
+.conteudo textarea{
     width: 100%;
-    margin-bottom: 10px;
-    height: 5vh;
-    border-radius: 50px;
-    border: 1px solid #ed259023;
-}
-.botao .ok{
-    background-color: #ed2590;
-    color: white;
-    font-weight: bolder;
-}
-.botao .ok:hover{
-    background-color: white;
-    color: #ed2590;
-}
-.botao button:hover{
-    background-color: rgb(248, 210, 210);
-}
-.cadastro{
-    margin-top: 5%;
-    margin-left: 15%;
-    margin-right: 0%;
-    width: 80vh;
-}
-.cadastro2{
-    position: relative;
-    top: -400px;
-    left: -400px;
-    float: right;
-    width: 60vh;
-}
-.sex{
-    float: right;
-    position: relative;
-    top: -200px;
-    left: -200px;
-}
-.sex select{
-    background-color: white;
-    width: 200px;
-    height: 5vh;
+    height: 30vh;
     margin-top: 1%;
     margin-bottom: 2%;
-    padding-left: 20px;
-    border-radius: 50px;
-    border: 1px solid #ed259023;
-}
-.outros{
-    float: right;
-    position: relative;
-    left: 500px;
-    top: -400px;
-}
-.outros input{
-    width: 100%;
-    height: 5vh;
-    margin-top: 1%;
-    margin-bottom: 8%;
+    padding-top: 20px;
     padding-left: 20px;
     border-radius: 50px;
     border: 1px solid #ed259023;
@@ -126,7 +68,7 @@ body{
 .rodape{
     padding: 2%;
     width: 100%;
-    height: 11vh;
+    height: 10vh;
     display: flex;
     justify-content: center;
     background-color: white;
